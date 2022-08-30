@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profile</title>
+	<title>Lutando Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -496,24 +496,24 @@
 			<form action="#">
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname" id="fname" required type="text">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname" id="lname" required type="text">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
+						<input type="text" id="email" class="form-control" placeholder="your_email@example.com" required>
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message" required>
 					</div>
 				</div>
 
@@ -524,6 +524,8 @@
 				</div>
 				<div class="form-group">
 					<input type="submit" value="Send Message" class="btn btn-primary">
+					<input type="hidden" name="referrer" id="referrer_field" />
+					<input type="hidden" name="body" />
 				</div>
 
 			</form>	
