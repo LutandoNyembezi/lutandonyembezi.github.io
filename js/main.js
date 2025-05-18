@@ -6,8 +6,8 @@
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
-			BlackBerry: function() {
-			return navigator.userAgent.match(/BlackBerry/i);
+			GoogleChrome: function() {
+			return navigator.userAgent.match(/GoogleChrome/i);
 		},
 			iOS: function() {
 			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
@@ -19,7 +19,7 @@
 			return navigator.userAgent.match(/IEMobile/i);
 		},
 			any: function() {
-			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			return (isMobile.Android() || isMobile.GoogleChrome() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
 
