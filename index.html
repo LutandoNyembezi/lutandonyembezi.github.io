@@ -429,7 +429,7 @@
 					<h2>Hire Me!</h2>
 					<p>For easy access quickly  use the buttons below to send an email or call me</p>
 					<!--<a href = "mailto:nyembezilutando@gmail.com" class="btn btn-default btn-lg">Send Email</a>-->
-					<a href="mailto:nyembezilutando@gmail.com?subject=Hello%20Lutando&body=I%20wanted%20to%20reach%20out..."
+	<a href="mailto:nyembezilutando@gmail.com?subject=Reaching%20Out&body=I%20wanted%20to%20reach%20out..."
    class="btn btn-primary btn-lg"
    onclick="openEmail(event)">
   Send Email
@@ -439,14 +439,15 @@
   function openEmail(event) {
     // Give the mailto: a chance first
     setTimeout(() => {
-      // If the email app doesn’t open, fallback to Gmail web
+      // Fallback: open Gmail web if no desktop client is available
       window.open(
-        'https://mail.google.com/mail/?view=cm&fs=1&to=nyembezilutando@gmail.com&su=Hello%20Lutando&body=I%20wanted%20to%20reach%20out...',
+        'https://mail.google.com/mail/?view=cm&fs=1&to=nyembezilutando@gmail.com&su=Reaching%20Out&body=I%20wanted%20to%20reach%20out...',
         '_blank'
       );
     }, 500); // half a second delay to allow mail client to trigger
   }
 </script>
+
 
 					<p><a href="tel:0834963430" class="btn btn-default btn-lg">CLICK TO CALL</a></p>
 				</div>
