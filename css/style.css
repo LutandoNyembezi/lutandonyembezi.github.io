@@ -1290,4 +1290,23 @@ input[type="text"] {
   opacity: 0;
 }
 
+/* Desktop */
+#fh5co-header {
+    height: 75vh;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    #fh5co-header {
+        height: 65vh;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #fh5co-header {
+        height: 55vh;
+    }
+}
+
 /*# sourceMappingURL=style.css.map */
