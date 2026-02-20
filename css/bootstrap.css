@@ -6252,6 +6252,24 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+  /* Desktop */
+#fh5co-header {
+    height: 75vh;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    #fh5co-header {
+        height: 65vh;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #fh5co-header {
+        height: 55vh;
+    }
+}
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
